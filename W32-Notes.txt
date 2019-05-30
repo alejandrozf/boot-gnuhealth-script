@@ -1,0 +1,11 @@
+- The first step to getting this whole setup to work is installing Oracle’s VirtualBox on the host system. 
+
+- Install Chocolatey
+
+- Once the installation is complete, installing docker-machine is as simple as running the following in an Administrative 
+PowerShell session:
+
+
+choco install docker-machine -y
+docker-machine create --driver virtualbox default
+docker-machine env | Invoke-Expression
