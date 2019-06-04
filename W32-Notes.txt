@@ -9,3 +9,5 @@ PowerShell session:
 choco install docker-machine -y
 docker-machine create --driver virtualbox default
 docker-machine env | Invoke-Expression
+
+docker-machine create gnuhealth
