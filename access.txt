@@ -1,0 +1,5 @@
+Tryton client 3.8
+
+HOST:ip_docker_machine
+User:admin
+Password:gnusolidario
