@@ -1,0 +1,5 @@
+docker-machine start gnuhealth
+docker-machine ssh gnuhealth
+
+cd /var/lib/boot2docker/bin
+docker-compose up
