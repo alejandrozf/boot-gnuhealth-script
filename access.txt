@@ -3,3 +3,9 @@ Tryton client 3.8
 HOST:ip_docker_machine
 User:admin
 Password:gnusolidario
+
+Putty
+ip:ip_docker_machine
+port:22
+user:docker
+password:tcuser
